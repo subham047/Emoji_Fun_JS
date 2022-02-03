@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: 250px;
+    padding-top: 40px;
+    margin: 40px;
+}
+
+.emoji{
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: none;
+}
+
+.active{
+    display: block;
+    background:linear-gradient(45deg,rgb(86, 86, 150),rgb(97, 43, 43),rgb(89, 145, 142));
+    border-radius: 150px;
+    margin-bottom: 30px;
+}
